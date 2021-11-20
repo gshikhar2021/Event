@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+class Screen4 extends StatelessWidget {
+  const Screen4({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Container(
+        color: Colors.green.shade50,
+        child: Center(
+          child: Text('GALLERY'),
+        ),
+      ),
+    );
+  }
+}
